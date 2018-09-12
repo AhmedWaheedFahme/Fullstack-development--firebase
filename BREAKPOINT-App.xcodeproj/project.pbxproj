@@ -8,22 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		7E3790E8213DDE0400D7871D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3790E7213DDE0400D7871D /* AppDelegate.swift */; };
-		7E3790EA213DDE0400D7871D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3790E9213DDE0400D7871D /* FirstViewController.swift */; };
-		7E3790EC213DDE0400D7871D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3790EB213DDE0400D7871D /* SecondViewController.swift */; };
+		7E3790EA213DDE0400D7871D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3790E9213DDE0400D7871D /* FeedVC.swift */; };
+		7E3790EC213DDE0400D7871D /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3790EB213DDE0400D7871D /* GroupsVC.swift */; };
 		7E3790EF213DDE0400D7871D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3790ED213DDE0400D7871D /* Main.storyboard */; };
 		7E3790F1213DDE0400D7871D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3790F0213DDE0400D7871D /* Assets.xcassets */; };
 		7E3790F4213DDE0400D7871D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3790F2213DDE0400D7871D /* LaunchScreen.storyboard */; };
+		7E40129B213DE1300073518E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E40129A213DE1300073518E /* GoogleService-Info.plist */; };
+		7E40129D213DFA370073518E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E40129C213DFA370073518E /* DataService.swift */; };
+		7E4012A1213E114C0073518E /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4012A0213E114C0073518E /* AuthVC.swift */; };
+		7E4012A3213E11C40073518E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4012A2213E11C40073518E /* LoginVC.swift */; };
+		7E4012A5213E12760073518E /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4012A4213E12760073518E /* InsetTextField.swift */; };
+		7E5A46CA21427DB200EBFBE4 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46C921427DB200EBFBE4 /* MeVC.swift */; };
+		7E5A46CC2142C87D00EBFBE4 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46CB2142C87D00EBFBE4 /* CreatePostVC.swift */; };
+		7E5A46CE2143085E00EBFBE4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46CD2143085E00EBFBE4 /* UIViewExt.swift */; };
+		7E5A46D02143161900EBFBE4 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46CF2143161900EBFBE4 /* FeedCell.swift */; };
+		7E5A46D22143275700EBFBE4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46D12143275700EBFBE4 /* Message.swift */; };
+		7E5A46D4214395B300EBFBE4 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46D3214395B300EBFBE4 /* CreateGroupsVC.swift */; };
+		7E5A46D62143A51800EBFBE4 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46D52143A51800EBFBE4 /* UserCell.swift */; };
+		7E5A46D82146491700EBFBE4 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46D72146491700EBFBE4 /* GroupCell.swift */; };
+		7E5A46DA2146506100EBFBE4 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46D92146506100EBFBE4 /* Group.swift */; };
+		7E5A46DC21470A3C00EBFBE4 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46DB21470A3C00EBFBE4 /* GroupFeedCell.swift */; };
+		7E5A46DE21470B9300EBFBE4 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46DD21470B9300EBFBE4 /* GroupFeedVC.swift */; };
+		7E5A46F3214895EA00EBFBE4 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A46F2214895EA00EBFBE4 /* UIViewControllerExt.swift */; };
+		7E76EB4F213E1DB200F3FFDA /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E76EB4E213E1DB200F3FFDA /* ShadowView.swift */; };
+		7E76EB51213E2A4800F3FFDA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E76EB50213E2A4700F3FFDA /* AuthService.swift */; };
+		87EEE086CED8D2D946FF12C5 /* Pods_BREAKPOINT_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33313716D338DED1BF0394B /* Pods_BREAKPOINT_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E3790E4213DDE0400D7871D /* BREAKPOINT-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BREAKPOINT-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3790E7213DDE0400D7871D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E3790E9213DDE0400D7871D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7E3790EB213DDE0400D7871D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7E3790E9213DDE0400D7871D /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		7E3790EB213DDE0400D7871D /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		7E3790EE213DDE0400D7871D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E3790F0213DDE0400D7871D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E3790F3213DDE0400D7871D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3790F5213DDE0400D7871D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E40129A213DE1300073518E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E40129C213DFA370073518E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7E4012A0213E114C0073518E /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		7E4012A2213E11C40073518E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7E4012A4213E12760073518E /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		7E5A46C921427DB200EBFBE4 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		7E5A46CB2142C87D00EBFBE4 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		7E5A46CD2143085E00EBFBE4 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		7E5A46CF2143161900EBFBE4 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		7E5A46D12143275700EBFBE4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7E5A46D3214395B300EBFBE4 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
+		7E5A46D52143A51800EBFBE4 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		7E5A46D72146491700EBFBE4 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		7E5A46D92146506100EBFBE4 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		7E5A46DB21470A3C00EBFBE4 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		7E5A46DD21470B9300EBFBE4 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		7E5A46F2214895EA00EBFBE4 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		7E76EB4E213E1DB200F3FFDA /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		7E76EB50213E2A4700F3FFDA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B65A8541729D467A2A94E6E4 /* Pods-BREAKPOINT-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BREAKPOINT-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BREAKPOINT-App/Pods-BREAKPOINT-App.debug.xcconfig"; sourceTree = "<group>"; };
+		E33888033E14A0CF93D6A891 /* Pods-BREAKPOINT-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BREAKPOINT-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-BREAKPOINT-App/Pods-BREAKPOINT-App.release.xcconfig"; sourceTree = "<group>"; };
+		F33313716D338DED1BF0394B /* Pods_BREAKPOINT_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BREAKPOINT_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EEE086CED8D2D946FF12C5 /* Pods_BREAKPOINT_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +85,8 @@
 			children = (
 				7E3790E6213DDE0400D7871D /* BREAKPOINT-App */,
 				7E3790E5213DDE0400D7871D /* Products */,
+				F1307FB3EA0E740B257B1313 /* Pods */,
+				A940C3E91CE5C75B8ADE0837 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,91 @@
 		7E3790E6213DDE0400D7871D /* BREAKPOINT-App */ = {
 			isa = PBXGroup;
 			children = (
+				7E401299213DDF030073518E /* Services */,
+				7E3790FE213DDE4700D7871D /* EXtensions */,
+				7E3790FD213DDE2F00D7871D /* Models */,
+				7E3790FC213DDE1F00D7871D /* Views */,
+				7E3790FB213DDE1400D7871D /* Controllers */,
 				7E3790E7213DDE0400D7871D /* AppDelegate.swift */,
-				7E3790E9213DDE0400D7871D /* FirstViewController.swift */,
-				7E3790EB213DDE0400D7871D /* SecondViewController.swift */,
 				7E3790ED213DDE0400D7871D /* Main.storyboard */,
 				7E3790F0213DDE0400D7871D /* Assets.xcassets */,
 				7E3790F2213DDE0400D7871D /* LaunchScreen.storyboard */,
 				7E3790F5213DDE0400D7871D /* Info.plist */,
+				7E40129A213DE1300073518E /* GoogleService-Info.plist */,
 			);
 			path = "BREAKPOINT-App";
+			sourceTree = "<group>";
+		};
+		7E3790FB213DDE1400D7871D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E3790E9213DDE0400D7871D /* FeedVC.swift */,
+				7E3790EB213DDE0400D7871D /* GroupsVC.swift */,
+				7E4012A0213E114C0073518E /* AuthVC.swift */,
+				7E4012A2213E11C40073518E /* LoginVC.swift */,
+				7E5A46C921427DB200EBFBE4 /* MeVC.swift */,
+				7E5A46CB2142C87D00EBFBE4 /* CreatePostVC.swift */,
+				7E5A46D3214395B300EBFBE4 /* CreateGroupsVC.swift */,
+				7E5A46DD21470B9300EBFBE4 /* GroupFeedVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7E3790FC213DDE1F00D7871D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E4012A4213E12760073518E /* InsetTextField.swift */,
+				7E76EB4E213E1DB200F3FFDA /* ShadowView.swift */,
+				7E5A46CF2143161900EBFBE4 /* FeedCell.swift */,
+				7E5A46D52143A51800EBFBE4 /* UserCell.swift */,
+				7E5A46D72146491700EBFBE4 /* GroupCell.swift */,
+				7E5A46DB21470A3C00EBFBE4 /* GroupFeedCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E3790FD213DDE2F00D7871D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E5A46D12143275700EBFBE4 /* Message.swift */,
+				7E5A46D92146506100EBFBE4 /* Group.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E3790FE213DDE4700D7871D /* EXtensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E5A46CD2143085E00EBFBE4 /* UIViewExt.swift */,
+				7E5A46F2214895EA00EBFBE4 /* UIViewControllerExt.swift */,
+			);
+			path = EXtensions;
+			sourceTree = "<group>";
+		};
+		7E401299213DDF030073518E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7E40129C213DFA370073518E /* DataService.swift */,
+				7E76EB50213E2A4700F3FFDA /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A940C3E91CE5C75B8ADE0837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F33313716D338DED1BF0394B /* Pods_BREAKPOINT_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1307FB3EA0E740B257B1313 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B65A8541729D467A2A94E6E4 /* Pods-BREAKPOINT-App.debug.xcconfig */,
+				E33888033E14A0CF93D6A891 /* Pods-BREAKPOINT-App.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E3790F8213DDE0400D7871D /* Build configuration list for PBXNativeTarget "BREAKPOINT-App" */;
 			buildPhases = (
+				09C96A22E473593E1627F0F1 /* [CP] Check Pods Manifest.lock */,
 				7E3790E0213DDE0400D7871D /* Sources */,
 				7E3790E1213DDE0400D7871D /* Frameworks */,
 				7E3790E2213DDE0400D7871D /* Resources */,
+				DBDF1EFA09CD0E220418947D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E3790F4213DDE0400D7871D /* LaunchScreen.storyboard in Resources */,
+				7E40129B213DE1300073518E /* GoogleService-Info.plist in Resources */,
 				7E3790F1213DDE0400D7871D /* Assets.xcassets in Resources */,
 				7E3790EF213DDE0400D7871D /* Main.storyboard in Resources */,
 			);
@@ -134,14 +258,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C96A22E473593E1627F0F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BREAKPOINT-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDF1EFA09CD0E220418947D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BREAKPOINT-App/Pods-BREAKPOINT-App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BREAKPOINT-App/Pods-BREAKPOINT-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E3790E0213DDE0400D7871D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3790EC213DDE0400D7871D /* SecondViewController.swift in Sources */,
+				7E5A46CE2143085E00EBFBE4 /* UIViewExt.swift in Sources */,
+				7E5A46D02143161900EBFBE4 /* FeedCell.swift in Sources */,
+				7E5A46CA21427DB200EBFBE4 /* MeVC.swift in Sources */,
+				7E5A46D82146491700EBFBE4 /* GroupCell.swift in Sources */,
+				7E4012A1213E114C0073518E /* AuthVC.swift in Sources */,
+				7E5A46F3214895EA00EBFBE4 /* UIViewControllerExt.swift in Sources */,
+				7E3790EC213DDE0400D7871D /* GroupsVC.swift in Sources */,
+				7E5A46DE21470B9300EBFBE4 /* GroupFeedVC.swift in Sources */,
+				7E5A46DC21470A3C00EBFBE4 /* GroupFeedCell.swift in Sources */,
+				7E4012A3213E11C40073518E /* LoginVC.swift in Sources */,
+				7E76EB51213E2A4800F3FFDA /* AuthService.swift in Sources */,
+				7E5A46D4214395B300EBFBE4 /* CreateGroupsVC.swift in Sources */,
+				7E5A46DA2146506100EBFBE4 /* Group.swift in Sources */,
+				7E5A46D62143A51800EBFBE4 /* UserCell.swift in Sources */,
 				7E3790E8213DDE0400D7871D /* AppDelegate.swift in Sources */,
-				7E3790EA213DDE0400D7871D /* FirstViewController.swift in Sources */,
+				7E76EB4F213E1DB200F3FFDA /* ShadowView.swift in Sources */,
+				7E5A46CC2142C87D00EBFBE4 /* CreatePostVC.swift in Sources */,
+				7E3790EA213DDE0400D7871D /* FeedVC.swift in Sources */,
+				7E4012A5213E12760073518E /* InsetTextField.swift in Sources */,
+				7E40129D213DFA370073518E /* DataService.swift in Sources */,
+				7E5A46D22143275700EBFBE4 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +463,14 @@
 		};
 		7E3790F9213DDE0400D7871D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65A8541729D467A2A94E6E4 /* Pods-BREAKPOINT-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BV45YUU93U;
 				INFOPLIST_FILE = "BREAKPOINT-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.BREAKPOINT-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.BREAKPOINT-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,13 +479,14 @@
 		};
 		7E3790FA213DDE0400D7871D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33888033E14A0CF93D6A891 /* Pods-BREAKPOINT-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BV45YUU93U;
 				INFOPLIST_FILE = "BREAKPOINT-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.BREAKPOINT-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.BREAKPOINT-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
